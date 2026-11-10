@@ -3358,3 +3358,37 @@ footer p {
         gap: 12px;
     }
 }
+
+
+.etapa2-imagen-relacional {
+    width: 100%;
+    height: 220px;
+    overflow: hidden;
+    border-radius: 12px;
+    background: #f1f5f9;
+    border: 1px solid #e2e8f0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.etapa2-imagen-relacional a {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.etapa2-imagen-relacional img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+    transition: transform 0.3s ease;
+}
+
+.etapa2-imagen-relacional img:hover {
+    transform: scale(1.04);
+}
+
