@@ -3393,34 +3393,5 @@ footer p {
 }
 
 
-/* ALINEACIÓN DE LAS TARJETAS DEL CARRUSEL */
-
-.etapa2-tarjeta {
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-}
-
-/* Mantener las imágenes a la misma altura */
-.etapa2-imagen-relacional {
-    margin-top: auto;
-    height: 220px;
-    min-height: 220px;
-    width: 100%;
-    overflow: hidden;
-    border-radius: 12px;
-    background: #f1f5f9;
-    border: 1px solid #e2e8f0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.etapa2-imagen-relacional img {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-    display: block;
-}
 
 
