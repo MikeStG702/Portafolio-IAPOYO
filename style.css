@@ -3393,5 +3393,47 @@ footer p {
 }
 
 
+/* AJUSTE EXCLUSIVO PARA LAS DOS TARJETAS DE DIAGRAMAS */
+
+.tarjeta-diagrama {
+    display: flex;
+    flex-direction: column;
+    min-height: 850px;
+}
+
+/* Las dos vistas previas tendrán la misma altura */
+.tarjeta-diagrama .etapa2-pdf,
+.tarjeta-diagrama .etapa2-imagen-relacional {
+    margin-top: auto;
+    height: 320px;
+    min-height: 320px;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 12px;
+}
+
+/* Imagen del diagrama relacional */
+.tarjeta-diagrama .etapa2-imagen-relacional img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+}
+
+/* Vista previa PDF del Gantt */
+.tarjeta-diagrama .etapa2-pdf iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+/* Botones alineados */
+.tarjeta-diagrama .etapa2-boton-documento {
+    margin-top: 20px;
+    align-self: flex-start;
+}
+
+
+
 
 
